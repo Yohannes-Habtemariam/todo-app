@@ -1,0 +1,87 @@
+body {
+  background-color: #f8f8ff;
+}
+.App-container {
+  width: 80%;
+  background-color: #f0ffff;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px;
+}
+
+.title {
+  font-size: 2rem;
+  color: blue;
+  text-align: center;
+}
+form {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+input, button {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+button{
+  background-color: 	#87cefa;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+}
+button:hover {
+  background-color: lightgreen;
+}
+input {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.pending-tasks-container {
+  background-color: #fff5ee;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1px;
+}
+
+.completed-tasks-container {
+  background-color: #f0f8ff;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 0 1px;
+}
+
+span {
+  cursor: pointer;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
+.delete {
+  display: inline-block;
+}
+.delete-todo {
+  background-color: lightblue;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+.delete-todo:hover {
+  background-color: lightgray;
+  color: red;
+}
+
+.transferred-todo {
+  background-color: lightgreen;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
+}
+
+.transferred-todo:hover {
+  background-color: lightblue;
+  color: blue;
+}
